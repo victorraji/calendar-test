@@ -202,6 +202,7 @@ return weeks
 </script>
 
 <style>
+
 .one {
  font-size: 15px;
  font-weight: 600
@@ -226,7 +227,8 @@ return weeks
 .footer{
   margin-top: 150px;
   background-color:black;
-  height:50px
+  height:50px;
+  color:white;
 }
 
 
@@ -318,6 +320,18 @@ margin-left:3px;
 }
     }
     @media (min-width:1000px){
+      .container-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+   .shots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:900;
+  font-size:25px;
+  margin-left:-106px
+  }
       .button-container{
   display: flex;
   justify-content: flex-end;
@@ -357,6 +371,7 @@ border: 1px solid #FFB500;
       .img-mid {
        height:120px;
        width:150px;
+        margin-right:-200px
       }
       .avail{
         height: 60px;
