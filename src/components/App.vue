@@ -54,13 +54,13 @@
      <div class="one"> Connect with Us</div>
     <div class="two" > Find a photographer</div>
       <div class="eight"> About Us</div>
-       <div> 5a Awud Egbeda</div>
-    <div class="three" > Find my photo</div>
-    <div class="nine"> faq</div>
+       <div> 5a Awudu Egheda</div>
+    <div class="three" > Find my photos</div>
+    <div class="nine"> FAQs</div>
     <div class="seven" > Lekki,Lagos</div>
     <div class="four"> Reexomemories</div>
         <div> pricing</div>
-        <div> Customer.service</div>
+        <div> customerservice@Peexoo.ai</div>
     <div class="five"> Become a Photographer</div>
       <div> Careers</div>
       <div>+23456789000</div>
@@ -217,15 +217,7 @@ return weeks
   padding-bottom: 20px
 }
 
-.button-container{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height:50px;
-  padding: 50px;
-  padding-right:100px
 
-}
 .footer{
   margin-top: 150px;
   background-color:black;
@@ -234,6 +226,15 @@ return weeks
 
 
 @media (max-width:700px){
+  .button-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:50px;
+  padding: 50px;
+  /* padding-right:100px */
+
+}
         .img-mid {
            height:2px;
            width:2px
@@ -258,18 +259,26 @@ return weeks
 .card-g{
   width: 100%;
 }
+
            .message{
-/* padding-right:50px; */
-margin-right:15px;
+margin-right:12px;
 background: #FEFBF3;
-  height: 50px;
-  width:300px;
-  color: #FFB500;
-  border-radius:50px;
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1px solid #FFB500;
+    height: 50px;
+    width: 606px;
+    color: #FFB500;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #FFB500;
+    font-size: 12px;
+    text-align: center;
 }
  
 .book{
@@ -283,9 +292,20 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: 1px solid #FFB500;
+width:321px;
+margin-left:3px;
+ font-size: 13px;
 }
     }
     @media (min-width:1000px){
+      .button-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:50px;
+  padding: 50px;
+  padding-right:100px
+}
       .book{
   background:#FFB500;
   /* padding-left:50px; */
@@ -310,6 +330,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: 1px solid #FFB500;
+
 }
  
       .img-mid {
