@@ -21,10 +21,13 @@
     <b-col cols="4"><b-button pill variant="warning">Message photographer</b-button></b-col>
     <b-col cols="4"><b-button style="color:white;" pill variant="warning">Book Now</b-button></b-col>
   </b-row> -->
-  <div class="button-container">
-    <button class="message">Message photographer</button>
-    <button class="book">Book Now</button>
-  </div>
+  <div class="container-grid">
+        <div class="shots" >Victor Shotz.Tm </div>
+        <div class="button-container">
+          <button class="message">Message photographer</button>
+          <button class="book">Book Now</button>
+        </div>
+        </div>
     <div  id="nav">
       <div class="card-container">
       <b-card class="card-g">
@@ -228,6 +231,15 @@ return weeks
 
 
 @media (max-width:700px){
+    .shots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:900;
+  font-size:25px;
+  /* margin-left:-106px */
+
+}
     .two {
   word-wrap: break-word;
   max-width: 100px;
@@ -239,6 +251,7 @@ return weeks
   height:50px;
   padding: 50px;
   /* padding-right:100px */
+  
 
 }
         .img-mid {
@@ -267,11 +280,11 @@ return weeks
 }
 
            .message{
-margin-right:12px;
-background: #FEFBF3;
+    margin-right: 12px;
+    background: #fefbf3;
     height: 50px;
     width: 606px;
-    color: #FFB500;
+    color: #ffb500;
     border-radius: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -282,7 +295,7 @@ background: #FEFBF3;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border: 1px solid #FFB500;
+    border: 1px solid #ffb500;
     font-size: 12px;
     text-align: center;
 }
@@ -301,6 +314,7 @@ border: 1px solid #FFB500;
 width:321px;
 margin-left:3px;
  font-size: 13px;
+ 
 }
     }
     @media (min-width:1000px){
@@ -325,6 +339,7 @@ align-items: center;
 border: 1px solid #FFB500;
 }
            .message{
+             
 /* padding-right:50px; */
 margin-right:15px;
 background: #FEFBF3;
