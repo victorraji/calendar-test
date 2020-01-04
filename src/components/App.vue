@@ -50,24 +50,25 @@
     </div>
   <div class="f-grid">
     <div class="one">Quick Links</div>
-      <div class="company">Company</div>
-     <div class="connect-with"> connect-with Us</div>
-    <div class="two" > find a photographer</div>
+      <div class="one">Company</div>
+     <div class="one"> Connect with Us</div>
+    <div class="two" > Find a photographer</div>
       <div class="eight"> About Us</div>
        <div> 5a Awud Egbeda</div>
-    <div class="three" > find my photo</div>
+    <div class="three" > Find my photo</div>
     <div class="nine"> faq</div>
-     <div> 23456888888</div>
+    <div class="seven" > Lekki,Lagos</div>
     <div class="four"> Reexomemories</div>
         <div> pricing</div>
         <div> Customer.service</div>
     <div class="five"> Become a Photographer</div>
       <div> Careers</div>
-    <div class="seven" > Lekki Lagos</div>
+      <div>+23456789000</div>
     <div> Helps and Supports</div>
     <div >Terms and Condition</div>
-    <div> Privay Policy</div>
+    <!-- <div> Privay Policy</div> -->
   </div>
+ <div class="footer">@2019 Peexo Nigeria Limited</div>
   <!-- <button  @click="dec"> - Back</button> <button @click="inc"> + Front</button> -->
   </div>
 </template>
@@ -199,8 +200,8 @@ return weeks
 
 <style>
 .one {
-  grid-column: 1 / 1;
-  grid-row: 1;
+ font-size: 20px;
+ font-weight: 600
 }
 .f-grid{
   padding-top:50px;
@@ -224,6 +225,11 @@ return weeks
   padding: 50px;
   padding-right:100px
 
+}
+.footer{
+  margin-top: 150px;
+  background-color:black;
+  height:50px
 }
 
 
