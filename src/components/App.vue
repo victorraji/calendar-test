@@ -48,26 +48,26 @@
   <img   @click="inc" alt="Vue logo" src="../assets/icons8-next-40.png">
     </div>
     </div>
-  <div class="f-grid">
-    <div class="one">Quick Links</div>
+<div class="f-grid">
+      <div class="one">Quick Links</div>
       <div class="one">Company</div>
-     <div class="one"> Connect with Us</div>
-    <div class="two" > Find a photographer</div>
-      <div class="eight"> About Us</div>
-       <div> 5a Awudu Egheda</div>
-    <div class="three" > Find my photos</div>
-    <div class="nine"> FAQs</div>
-    <div class="seven" > Lekki,Lagos</div>
-    <div class="four"> Reexomemories</div>
-        <div> pricing</div>
-        <div> customerservice@Peexoo.ai</div>
-    <div class="five"> Become a Photographer</div>
-      <div> Careers</div>
-      <div>+23456789000</div>
-    <div> Helps and Supports</div>
-    <div >Terms and Condition</div>
-    <!-- <div> Privay Policy</div> -->
-  </div>
+      <div class="one two">Connect with Us</div>
+      <div class="two">Find a photographer</div>
+      <div class="eight">About Us</div>
+      <div class="two">5a Awudu Egheda</div>
+      <div class="three">Find my photos</div>
+      <div class="nine">FAQs</div>
+      <div class="two">Lekki,Lagos</div>
+      <div class="four">Reexomemories</div>
+      <div>pricing</div>
+      <div class="two">customerservice@Peexoo.ai</div>
+      <div class="five">Become a Photographer</div>
+      <div>Careers</div>
+      <div class="two">+23456789000</div>
+      <div>Helps and Supports</div>
+      <div>Terms and Condition</div>
+      <!-- <div> Privay Policy</div> -->
+    </div>
  <div class="footer">@2019 Peexo Nigeria Limited</div>
   <!-- <button  @click="dec"> - Back</button> <button @click="inc"> + Front</button> -->
   </div>
@@ -200,15 +200,17 @@ return weeks
 
 <style>
 .one {
- font-size: 20px;
+ font-size: 15px;
  font-weight: 600
 }
 .f-grid{
+   font-size: 12px;
   padding-top:50px;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
     /* grid-gap: 10px; */
   grid-auto-rows: minmax(50px, auto);
+  padding: 15px;
 }
 .card-container{
    display: flex;
@@ -226,6 +228,10 @@ return weeks
 
 
 @media (max-width:700px){
+    .two {
+  word-wrap: break-word;
+  max-width: 100px;
+}
   .button-container{
   display: flex;
   justify-content: flex-end;
